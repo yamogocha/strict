@@ -1,0 +1,302 @@
+body{
+	display:block;
+	font-family:Lato, sans-serif;
+	height:100%;
+	width:100%;
+	margin:0;
+	}
+
+nav{
+	background-color:rgb(246, 249, 249);
+	display:block;
+	height:40px;
+	padding:25px 100px;
+	width:100%;
+}
+
+img{
+	display:inline;
+	height:37px;
+	width:154px;
+}
+
+.sec-one{
+	background-image:url("../img/bg1.png");
+	display:block;
+	height:800px;
+	text-align:center;
+}
+
+.sec-one h1{
+	color:#ffffff;
+	font-size:120px;
+	font-weight:700;
+	line-height:47px;
+	text-align:center;
+	margin-top:0;
+	padding-top:225px;
+	margin-bottom:60px;
+}
+
+.sec-one hr{
+	border-color:#15a4fa;
+	width:50%;
+	margin-left:25%;
+}
+
+.sec-one p{
+	color:white;
+	font-size:20px;
+	font-weight:400;
+	line-height:47px;
+}
+
+.sec-one button{
+	background-color:transparent;
+	border:1px solid #15a4fa;
+	border-radius:2px;
+	padding:10px 15px;
+	color:white;
+	cursor:pointer;
+}
+
+.sec-one a{
+	position:relative;
+	top:100px;
+	color:white;
+}
+
+.fa-chevron-down:before{
+	content:"\f078";
+}
+
+.info{
+	background-color:#F6F9F9;
+	padding:50px;
+	text-align:center;
+}
+
+.info h2{
+	color:#2d3950;
+	font-size:40px;
+	font-weight:400;
+}
+
+.info p{
+	width:74%;
+	margin:0 auto;
+	color:#999999;
+	font-weight:400;
+	line-height:32px;
+}
+
+.features{
+	padding-left:13%;
+}
+
+.features .box{
+	display:inline-block;
+	width:25%;
+	padding:10px;
+	text-align:center;
+	margin:5% 1%;
+	font-weight:400;
+}
+
+.features .iconBox{
+	background: linear-gradient(to right, #1e5799 0%,#207cca 50%,#2989d8 50%,#7db9e8 100%);
+	width:100px;
+	height:100px;
+	margin:0 auto;
+}
+
+.iconBox i{
+	display:block;
+	width:100%;
+	text-align:center;
+	padding-top:25px;
+	color:white;
+	font-size:40px;
+}
+
+.fa-mobile:before {
+    content: "\f10b";
+}
+
+.box h4{
+	color:#2d3950;
+	font-size:22px;
+	margin-bottom:3%;
+}
+
+.box p{
+	color:#999999;
+	font-size:15px;
+	font-weight:400;
+	line-height:22px;
+}
+
+.fa-paper-plane-o:before{
+	content:"\f1d9";
+}
+
+.fa-bullhorn:before{
+	content:"\ f0a1";
+}
+
+.work{
+	background-color:#f6f9f9;
+	text-align:center;
+	font-weight:400;
+	padding:50px 0;
+}
+
+.work h2{
+	color:#2d3950;
+	font-size:41px;
+	margin:0;
+}
+
+.work p{
+	color:#909090;
+	font-size:15px;
+	line-height:23px;
+}
+
+.work .box{
+	display:inline-block;
+	width:25%;
+	padding:10px;
+	text-align:center;
+	margin:2% 1% 0%;
+	font-weight:400;
+}
+
+.work img{
+	width:100%;
+	height:100%;
+}
+
+.contact{
+	background-image:url("../img/bg2.png");
+	height:500px;
+	background-position:50%;
+	padding:100px;
+	text-align:center;
+}
+
+.contact h2{
+	color:white;
+	font-size:41px;
+	font-weight:400;
+	margin:7% 0 0;
+}
+
+.contact p{
+	color:#999999;
+	font-size:15px;
+	font-weight:400;
+	line-height:23px;
+}
+
+form > input, form > textarea{
+	margin:1% auto;
+	width:30%;
+	background-color:transparent;
+	padding:10px;
+	font-size:16px;
+	border-radius:2px;
+	border:1px solid #f6f9f9;
+	color:#fff;
+}
+
+form > textarea{
+	margin:0 auto;
+}
+
+form div{
+	width:40%;
+	margin:0 auto;
+}
+
+form div span{
+	position:relative;
+	right:40px;
+	top:25px;
+	color:#fff;
+	font-size:16px;
+	font-weight:400;
+}
+
+form div input{
+	border-radius:25%;
+}
+
+form div button{
+	position:relative;
+	left:35px;
+	top:25px;
+	background-color:transparent;
+	border:1px solid #15a4fa;
+	border-radius:2px;
+	padding:10px 25px;
+	color:#fff;
+	cursor:pointer;
+}
+
+footer{
+	background-color:#F6F9F9;
+	padding:10px;
+	height:50px;
+	padding-left:50px;
+}
+
+footer p{
+	display:inline-block;
+	float:left;
+	position:relative;
+	left:75px;
+}
+
+.socialMedia{
+	display:inline-block;
+	float:right;
+	position:relative;
+	right:200px;
+	top:17px;
+}
+
+.socialMedia a:first-child{
+	padding:7px 9px;
+}
+
+.socialMedia a:nth-child(3){
+	padding:7px 6px;
+}
+
+.socialMedia a{
+	border-radius:2px;
+	background-color:#15a4fa;
+	color:white;
+	padding:7px;
+	text-decoration:none;
+	margin:5px;
+}
+
+.fa-facebook:before{
+	content:"\f09a";
+}
+
+.fa-twitter:before{
+	content:"\f099";
+}
+
+.fa-google-plus:before{
+	content:"\f0d5";
+}
+
+.fa-linkedin:before{
+	content:"\f0e1";
+}
+
+
